@@ -1,0 +1,80 @@
+/* Gaya Umum */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+    flex-direction: column;  
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+/* Gaya untuk Header */
+.header {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* Gaya untuk Main Konten */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-between; 
+}
+/* Gaya untuk Sidebar */
+.sidebar {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    border-radius: 8px;
+}
+/* Gaya untuk Konten Utama */
+.content {
+    flex: 2;
+    background-color: #e91e63;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+/* Gaya untuk Rightbar */
+.rightbar {
+    background-color: #ff9800;
+    color: white;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    border-radius: 8px;
+}
+/* Gaya untuk Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
